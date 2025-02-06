@@ -5,11 +5,11 @@ import traceback
 import typing as ty
 import warnings
 
+import click.core
 try:
     import asyncclick as click
 except ImportError:
     import click
-import click.core
 from docutils import nodes
 from docutils.parsers import rst
 from docutils.parsers.rst import directives
